@@ -1,0 +1,5 @@
+CREATE TABLE pessoa(
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(30) NOT NULL,
+    cpf VARCHAR(11) NOT NULL
+)
